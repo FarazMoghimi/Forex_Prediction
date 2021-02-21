@@ -1,0 +1,11 @@
+{
+  "in_file": "aapl.us.csv",
+  "out_file": "aapl.us.csv",
+  "has_Time": false,
+  "close_column_name": "Close",
+  "open_column_name": "Open",
+  "high_column_name": "High",
+  "low_column_name": "Low",
+  "volume_column_name": "Vol",
+  "date_column_name": "Date"
+}

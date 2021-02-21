@@ -1,0 +1,45 @@
+{
+  "in_file": "aapl.us.csv",
+  "out_file": "aapl.us.xls",
+  "x_columns": [
+    "R1_RSI(14)_border_6931",
+    "R2_RSI(9)_border_6931",
+    "R3_RSI(14)_border_6040",
+    "R4_MA(5)_Price_com",
+    "R5_MA(9)_Price_Com",
+    "R6_MA(21)_Price_com",
+    "R7_MA(26)_Price_com",
+    "R8_MA(9)_MA(26)_com",
+    "R9_Shifted MA5_MA8",
+    "R10_MFI_borders_2179",
+    "R11_MFI_borders_6535",
+    "R13_MACD_+-",
+    "R15_hcl",
+    "R16_range",
+    "R17_RSI(14)_slope",
+    "R18_MA(5)_Slope",
+    "R19_close_slope",
+    "DISTANCE_MIN",
+    "DISTANCE_MAX",
+    "RULE_1(bband(21))",
+    "RULE_2(sar(0.02,0.2))",
+    "RULE_3(mfi(9))",
+    "RULE_4(stoch(5,3,3))",
+    "RULE_5(rsi(2))"
+  ],
+  "score_columns": [
+  ],
+  "y_period": 6,
+  "close_column_name": "Close",
+  "test_set": {
+    "start": 7000,
+    "end": 8350
+  },
+  "train_set": {
+    "start": 6000,
+    "end": 7000
+  },
+  "step_svm": 1350,
+  "risk_factor": 0.01,
+  "probability_cutoff": 0.64
+}

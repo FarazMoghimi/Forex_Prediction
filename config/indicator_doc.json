@@ -1,0 +1,525 @@
+[
+    {
+    "column_name": "MA(5)",
+    "func_name": "ma",
+    "params_value": {
+      "period": 5
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MA(9)",
+    "func_name": "ma",
+    "params_value": {
+      "period": 9
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MA(8)",
+    "func_name": "ma",
+    "params_value": {
+      "period": 8
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MA(21)",
+    "func_name": "ma",
+    "params_value": {
+      "period": 21
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MA(26)",
+    "func_name": "ma",
+    "params_value": {
+      "period": 26
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "RSI(14)",
+    "func_name": "rsi",
+    "params_value": {
+      "period": 14
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "RSI(9)",
+    "func_name": "rsi",
+    "params_value": {
+      "period": 9
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MFI(14)",
+    "func_name": "mfi",
+    "params_value": {
+      "period": 14
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "volume": "Vol"
+    }
+  },
+  {
+    "column_name": "R1_RSI(14)_border_6931",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 69,
+      "lower_bound": 31
+    },
+    "params_column": {
+      "data": "RSI(14)"
+    }
+  },
+  {
+    "column_name": "R2_RSI(9)_border_6931",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 69,
+      "lower_bound": 31
+    },
+    "params_column": {
+      "data": "RSI(9)"
+    }
+  },
+    {
+    "column_name": "R2_RSI(9)_border_6931",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 69,
+      "lower_bound": 31
+    },
+    "params_column": {
+      "data": "RSI(9)"
+    }
+  },
+  {
+    "column_name": "R3_RSI(14)_border_6040",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 60,
+      "lower_bound": 40
+    },
+    "params_column": {
+      "data": "RSI(14)"
+    }
+  },
+  {
+    "column_name": "R4_MA(5)_Price_com",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "Close",
+      "high_minus": "MA(5)"
+    }
+  },
+  {
+    "column_name": "R5_MA(9)_Price_Com",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "Close",
+      "high_minus": "MA(9)"
+    }
+  },
+  {
+    "column_name": "R6_MA(21)_Price_com",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "Close",
+      "high_minus": "MA(21)"
+    }
+  },
+  {
+    "column_name": "R7_MA(26)_Price_com",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "Close",
+      "high_minus": "MA(26)"
+    }
+  },
+  {
+    "column_name": "R8_MA(9)_MA(26)_com",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "MA(9)",
+      "high_minus": "MA(26)"
+    }
+  },
+  {
+    "column_name": "MA(5)_shift(3)",
+    "func_name": "shift",
+    "params_value": {
+      "period": 3
+    },
+    "params_column": {
+      "data": "MA(5)"
+    }
+  },
+  {
+    "column_name": "MA(8)_shift(5)",
+    "func_name": "shift",
+    "params_value": {
+      "period": 5
+    },
+    "params_column": {
+      "data": "MA(8)"
+    }
+  },
+  {
+    "column_name": "R9_Shifted MA5_MA8",
+    "func_name": "compare",
+    "params_value": {
+    },
+    "params_column": {
+      "high_plus": "MA(5)_shift(3)",
+      "high_minus": "MA(8)_shift(5)"
+    }
+  },
+  {
+    "column_name": "R10_MFI_borders_2179",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 79,
+      "lower_bound": 21
+    },
+    "params_column": {
+      "data": "MFI(14)"
+    }
+  },
+  {
+    "column_name": "R11_MFI_borders_6535",
+    "func_name": "border",
+    "params_value": {
+      "upper_bound": 65,
+      "lower_bound": 35
+    },
+    "params_column": {
+      "data": "MFI(14)"
+    }
+  },
+  {
+    "column_name": "MACD",
+    "func_name": "macd",
+    "params_value": {
+      "short_period": 12,
+      "long_period": 26
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "R13_MACD_+-",
+    "func_name": "step",
+    "params_value": {
+      "bound": 0
+    },
+    "params_column": {
+      "data": "MACD"
+    }
+  },
+  {
+    "column_name": "R15_hcl",
+    "func_name": "hcl",
+    "params_value": {
+    },
+    "params_column": {
+      "high": "High",
+      "close": "Close",
+      "low": "Low"
+    }
+  },
+  {
+    "column_name": "R16_range",
+    "func_name": "range",
+    "params_value": {
+    },
+    "params_column": {
+      "high": "High",
+      "close": "Close",
+      "low": "Low"
+    }
+  },
+  {
+    "column_name": "R17_RSI(14)_slope",
+    "func_name": "slope",
+    "params_value": {
+      "period": 2
+    },
+    "params_column": {
+      "data": "RSI(14)"
+    }
+  },
+  {
+    "column_name": "R18_MA(5)_Slope",
+    "func_name": "slope",
+    "params_value": {
+      "period": 2
+    },
+    "params_column": {
+      "data": "MA(5)"
+    }
+  },
+    {
+    "column_name": "high_low_diff",
+    "func_name": "diff",
+    "params_value": {
+    },
+    "params_column": {
+      "plus_data": "High",
+      "minus_data": "Low"
+    }
+  },
+  {
+    "column_name": "high_low_diff_ma_20",
+    "func_name": "ma",
+    "params_value": {
+      "period": 20
+    },
+    "params_column": {
+      "data": "high_low_diff"
+    }
+  },
+  {
+    "column_name": "R19_close_slope",
+    "func_name": "momentum",
+    "params_value": {
+    },
+    "params_column": {
+      "avg_data": "high_low_diff_ma_20",
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "RSI(2)",
+    "func_name": "rsi",
+    "params_value": {
+      "period": 2
+    },
+    "params_column": {
+      "data": "Close"
+    }
+  },
+  {
+    "column_name": "MFI(9)",
+    "func_name": "mfi",
+    "params_value": {
+      "period": 9
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "volume": "Vol"
+    }
+  },
+  {
+    "column_name": "STOCH(5,3,3)",
+    "func_name": "stoch",
+    "params_value": {
+      "fastk_period": 5,
+      "slowk_period": 3,
+      "slowd_period": 3
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low"
+    }
+  },
+  {
+    "column_name": "SAR(0.02,0.2)",
+    "func_name": "sar",
+    "params_value": {
+      "acceleration": 0.02,
+      "maximum": 0.2
+    },
+    "params_column": {
+      "high": "High",
+      "low": "Low"
+    }
+  },
+  {
+    "column_name": "BBAND(21)",
+    "func_name": "bbands",
+    "params_value": {
+      "timeperiod": 21
+    },
+    "params_column": {
+      "close": "Close"
+    }
+  },
+
+  {
+    "column_name": "RULE_1(bband(21))",
+    "func_name": "bband_ma",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "bband": "BBAND(21)"
+    }
+  },
+  {
+    "column_name": "RULE_2(sar(0.02,0.2))",
+    "func_name": "sar_ma",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "sar": "SAR(0.02,0.2)"
+    }
+  },
+  {
+    "column_name": "RULE_3(mfi(9))",
+    "func_name": "mfi_ma",
+    "params_value": {
+      "mfi_bound": 20
+    },
+    "params_column": {
+      "close": "Close",
+      "mfi": "MFI(9)"
+    }
+  },
+  {
+    "column_name": "RULE_4(stoch(5,3,3))",
+    "func_name": "stoch_ma",
+    "params_value": {
+      "stoch_bound": 20
+    },
+    "params_column": {
+      "close": "Close",
+      "stoch": "STOCH(5,3,3)"
+    }
+  },
+  {
+    "column_name": "RULE_5(rsi(2))",
+    "func_name": "rsi_ma",
+    "params_value": {
+      "rsi_bound": 30
+    },
+    "params_column": {
+      "close": "Close",
+      "rsi": "RSI(2)"
+    }
+  },
+  {
+    "column_name": "DIFF_MA_CLOSE",
+    "func_name": "diff",
+    "params_value": {
+    },
+    "params_column": {
+      "plus_data": "Close",
+      "minus_data": "MA(21)"
+    }
+  },
+  {
+    "column_name": "DOJI",
+    "func_name": "doji",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "open": "Open"
+    }
+  },
+  {
+    "column_name": "ENGULFING",
+    "func_name": "engulfing",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "open": "Open"
+    }
+  },
+  {
+    "column_name": "GRAVESTONE_DOJI",
+    "func_name": "gravestone_doji",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "open": "Open"
+    }
+  },
+  {
+    "column_name": "HAMMER",
+    "func_name": "hammer",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "open": "Open"
+    }
+  },
+  {
+    "column_name": "INVERTED_HAMMER",
+    "func_name": "inverted_hammer",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "open": "Open"
+    }
+  },
+  {
+    "column_name": "DISTANCE_MAX",
+    "func_name": "distance_max_local",
+    "params_value": {
+    },
+    "params_column": {
+      "data": "High"
+    }
+  },
+  {
+    "column_name": "DISTANCE_MIN",
+    "func_name": "distance_min_local",
+    "params_value": {
+    },
+    "params_column": {
+      "data": "Low"
+    }
+  }
+]

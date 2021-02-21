@@ -1,0 +1,54 @@
+[
+  {
+    "column_name": "candle_type",
+    "func_name": "candle_type",
+    "params_value": {
+    },
+    "params_column": {
+      "close": "Close",
+      "open": "Open",
+      "high": "High",
+      "low": "Low"
+    }
+  },
+  {
+    "column_name": "index_maxima1",
+    "func_name": "index_maxima",
+    "params_value": {
+      "how_far": 1
+    },
+    "params_column": {
+      "data": "High"
+    }
+  },
+  {
+    "column_name": "index_maxima2",
+    "func_name": "index_maxima",
+    "params_value": {
+      "how_far": 2
+    },
+    "params_column": {
+       "data": "High"
+    }
+  },
+  {
+    "column_name": "index_minima1",
+    "func_name": "index_minima",
+    "params_value": {
+      "how_far": 1
+    },
+    "params_column": {
+      "data": "Low"
+    }
+  },
+    {
+    "column_name": "index_minima2",
+    "func_name": "index_minima",
+    "params_value": {
+      "how_far": 2
+    },
+    "params_column": {
+      "data": "Low"
+    }
+  }
+]

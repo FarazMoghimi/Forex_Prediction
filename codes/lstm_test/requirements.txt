@@ -1,0 +1,5 @@
+pandas
+xlrd
+keras
+numpy
+ipdb  # IPython debugger for interactive debugging, can be handy
