@@ -1,6 +1,6 @@
 # Forex_Prediction
 
-This project purpose is to predict market price of forex data using SVM function with preprocessed features including technical indicators and price action signals. These features can be implemented and edited using config files without any coding invovled, best for people without coding knowledge.
+The goal of this project is to predict market price of forex data using SVM function with preprocessed features including technical indicators and price action signals. These features can be implemented and edited using config files without any coding invovled, best for people without coding knowledge.
 
 The main goal was to use this tool to predict binary action of price value in the next X candles, which means if value is going to be higher or lower in the future.
 
